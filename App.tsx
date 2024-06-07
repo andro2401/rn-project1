@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards.tsx';
 import SwiperCards from './components/SwiperCards.tsx';
 import FancyCard from './components/FancyCard.tsx';
 import BlogCard from './components/BlogCard.tsx';
+import ContactList from './components/ContactList.tsx';
 
 function App(): React.JSX.Element {
   return (
@@ -13,6 +14,7 @@ function App(): React.JSX.Element {
         <SwiperCards />
         <FancyCard />
         <BlogCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
