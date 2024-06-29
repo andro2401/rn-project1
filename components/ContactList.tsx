@@ -60,9 +60,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 10,
-    borderBottomWidth: 0.2,
-    borderBottomColor: '#424242',
+    backgroundColor: '#8d3daf',
+    borderRadius: 10,
     paddingVertical: 15,
+    marginBottom: 5,
+    paddingHorizontal: 10,
   },
   contactImg: {
     height: 60,
@@ -71,12 +73,12 @@ const styles = StyleSheet.create({
   },
   contactName: {
     fontWeight: '600',
-    color: '#000',
+    color: '#fff',
     fontSize: 16,
     marginBottom: 3,
   },
   contactStatus: {
-    color: '#747171',
+    color: '#d3d3d3',
   },
 });
 export default ContactList;
